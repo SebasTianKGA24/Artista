@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url(https://www.xtrafondos.com/descargar.php?id=5479&resolucion=2560x1440);
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .color1
+        {
+            color: aliceblue;
+        }
+        .color2
+        {
+            color: aliceblue;
+        }
+        .color3
+        {
+            color: aliceblue;
+        }
+        .color4
+        {
+            color: aliceblue;
+        }
+        .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #d01ef4;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        }
+        .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+        .button span:after {
+        content: '\00bb';  /* Entidades CSS. Para usar entidades HTML, use &#8594;*/
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+        .button:hover span {
+        padding-right: 25px;
+        }
+        .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <br>
+    <img src="https://seeklogo.com/images/B/bad-bunny-logo-CF4F6C5BAD-seeklogo.com.png" alt="">
+    <br>
+    <br>
+    <br>
+    <br>
+<main>
+    <form action="">
+        <label class="color1" for="">Nombre Completo</label>
+        <input type="text" name="" id="" placeholder="Nombre Completo">
+        <br>
+        <br>
+        <label for="correo">
+            <span class="color2">Cuál es tu correo</span>
+            <input type="email" name="correo" id="correo" autocomplete="email" required>
+        </label>
+        <br>
+        <br>
+        <label for="contraseña">
+            <span class="color3">Contraseña</span>
+            <input type="password" name="contraseña" id="contraseña" required>
+        </label>
+        <br>
+        <br>
+        <label for="calendario">
+            <span class="color4">Fecha de Nacimiento</span>
+            <input type="datetime-local" id="calendario" name="calendario" />
+        </label>
+        <br>
+        <br>
+        <input class="button" type="submit">
+    </form>
+</main>
+<br>
+<img src="https://cdn.puntoticket.com/especiales/biz175_badbunny/img/header/Nombre.png" alt="" height="400" width="500">
+    </body>
+</html>
